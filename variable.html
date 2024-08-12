@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      /*global*/
+      :root {
+        --primarycolor: rgb(255, 38, 0);
+        --primaryfont: 80px;
+      }
+      h1 {
+        color: var(--primarycolor);
+        font-size: var(--primaryfont);
+      }
+
+      #para {
+        /*local variable*/
+        --secondarycolor: blue;
+        color: var(--secondarycolor);
+      }
+
+      p {
+        color: var(--primarycolor);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>TECHNO</h1>
+    <p id="para">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+      iusto? Necessitatibus odit officia rerum, aliquid quia perspiciatis,
+      laudantium mollitia, ad atque ut illum neque dolorum corporis ipsa
+      voluptatibus corrupti maxime.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+      iusto? Necessitatibus odit officia rerum, aliquid quia perspiciatis,
+      laudantium mollitia, ad atque ut illum neque dolorum corporis ipsa
+      voluptatibus corrupti maxime.
+    </p>
+  </body>
+</html>

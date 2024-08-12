@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        div{
+            height: 40px;
+            width: 40px;
+            background-color: mediumpurple;
+            border-radius: 50%;
+            animation-name: scale;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease in;
+        }
+
+        @keyframes scale{
+            0% ,100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+
+            50%{
+                transform: scale(1.2);
+                opacity: .5;
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

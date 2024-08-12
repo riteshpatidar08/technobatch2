@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ::selection{
+            color : mediumaquamarine ;
+            background-color: burlywood;
+        }
+
+        p::first-line{
+            color : red
+        }
+        h1{
+            color: red;
+            text-align: center;
+        }
+
+        h1::before{
+            content: '🚀';
+        }
+
+        h1::after{
+            content : '🍿'
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aspernatur mollitia quos reiciendis commodi sequi nemo incidunt assumenda, temporibus nihil quis aut tempora consectetur atque voluptates provident exercitationem optio laborum.</p>
+
+    <h1>TECHNO</h1>
+</body>
+</html>

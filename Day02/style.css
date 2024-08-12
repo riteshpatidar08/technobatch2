@@ -1,0 +1,29 @@
+/* tagName */
+h1 {
+  color: #0000ff;
+}
+
+/* using id */
+
+/* #heading {
+    color :blue
+} */
+
+/* using class */
+.heading1 {
+  color: #964b00;
+  font-size: 50px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* id>>class>>tagName */
+
+#secondary_heading {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: mediumaquamarine;
+}
+/* used to remove the bullet points and numbering from the list */
+ul{
+    list-style-type:none ;
+}
+
